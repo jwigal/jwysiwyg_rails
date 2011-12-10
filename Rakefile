@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "jwysiwyg_rails"
   gem.homepage = "http://github.com/jwigal/jwysiwyg_rails"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Rails 3.1 engine for jwysiwyg}
+  gem.description = %Q{Rails 3.1 engine for jwysiwyg}
   gem.email = "jeff@assignr.com"
   gem.authors = ["Jeff Wigal"]
   # dependencies defined in Gemfile

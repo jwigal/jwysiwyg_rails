@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jeff Wigal"]
   s.date = %q{2011-12-10}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{Rails 3.1 engine for jwysiwyg}
   s.email = %q{jeff@assignr.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -19,10 +19,79 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "app/assets/images/ajax-loader.gif",
+    "app/assets/images/jquery.wysiwyg.bg.png",
+    "app/assets/images/jquery.wysiwyg.gif",
+    "app/assets/images/jquery.wysiwyg.jpg",
+    "app/assets/images/jquery.wysiwyg.no-alpha.gif",
+    "app/assets/images/plugins/fileManager/icon.png",
+    "app/assets/images/plugins/fileManager/images/application.png",
+    "app/assets/images/plugins/fileManager/images/code.png",
+    "app/assets/images/plugins/fileManager/images/css.png",
+    "app/assets/images/plugins/fileManager/images/db.png",
+    "app/assets/images/plugins/fileManager/images/directory.png",
+    "app/assets/images/plugins/fileManager/images/doc.png",
+    "app/assets/images/plugins/fileManager/images/file.png",
+    "app/assets/images/plugins/fileManager/images/film.png",
+    "app/assets/images/plugins/fileManager/images/flash.png",
+    "app/assets/images/plugins/fileManager/images/folder_open.png",
+    "app/assets/images/plugins/fileManager/images/html.png",
+    "app/assets/images/plugins/fileManager/images/java.png",
+    "app/assets/images/plugins/fileManager/images/linux.png",
+    "app/assets/images/plugins/fileManager/images/mkdir.png",
+    "app/assets/images/plugins/fileManager/images/music.png",
+    "app/assets/images/plugins/fileManager/images/pdf.png",
+    "app/assets/images/plugins/fileManager/images/php.png",
+    "app/assets/images/plugins/fileManager/images/picture.png",
+    "app/assets/images/plugins/fileManager/images/ppt.png",
+    "app/assets/images/plugins/fileManager/images/prev-directory.png",
+    "app/assets/images/plugins/fileManager/images/psd.png",
+    "app/assets/images/plugins/fileManager/images/remove.png",
+    "app/assets/images/plugins/fileManager/images/rename.png",
+    "app/assets/images/plugins/fileManager/images/ruby.png",
+    "app/assets/images/plugins/fileManager/images/script.png",
+    "app/assets/images/plugins/fileManager/images/txt.png",
+    "app/assets/images/plugins/fileManager/images/upload.png",
+    "app/assets/images/plugins/fileManager/images/xls.png",
+    "app/assets/images/plugins/fileManager/images/zip.png",
+    "app/assets/javascripts/controls/wysiwyg.colorpicker.js",
+    "app/assets/javascripts/controls/wysiwyg.cssWrap.js",
+    "app/assets/javascripts/controls/wysiwyg.image.js",
+    "app/assets/javascripts/controls/wysiwyg.link.js",
+    "app/assets/javascripts/controls/wysiwyg.table.js",
+    "app/assets/javascripts/i18n/lang.cs.js",
+    "app/assets/javascripts/i18n/lang.de.js",
+    "app/assets/javascripts/i18n/lang.en.js",
+    "app/assets/javascripts/i18n/lang.es.js",
+    "app/assets/javascripts/i18n/lang.fr.js",
+    "app/assets/javascripts/i18n/lang.he.js",
+    "app/assets/javascripts/i18n/lang.hr.js",
+    "app/assets/javascripts/i18n/lang.it.js",
+    "app/assets/javascripts/i18n/lang.ja.js",
+    "app/assets/javascripts/i18n/lang.nl.js",
+    "app/assets/javascripts/i18n/lang.pl.js",
+    "app/assets/javascripts/i18n/lang.pt_br.js",
+    "app/assets/javascripts/i18n/lang.ru.js",
+    "app/assets/javascripts/i18n/lang.se.js",
+    "app/assets/javascripts/i18n/lang.sl.js",
+    "app/assets/javascripts/i18n/lang.zh-cn.js",
+    "app/assets/javascripts/plugins/wysiwyg.autoload.js",
+    "app/assets/javascripts/plugins/wysiwyg.fileManager.js",
+    "app/assets/javascripts/plugins/wysiwyg.fullscreen.js",
+    "app/assets/javascripts/plugins/wysiwyg.i18n.js",
+    "app/assets/javascripts/plugins/wysiwyg.rmFormat.js",
+    "app/assets/stylesheets/jquery.wysiwyg.css",
+    "app/assets/stylesheets/jquery.wysiwyg.modal.css",
+    "app/assets/stylesheets/jquery.wysiwyg.old-school.css",
+    "app/assets/stylesheets/jwysiwyg.css",
+    "app/assets/stylesheets/plugins/fileManager/wysiwyg.fileManager.css",
+    "jwysiwyg_rails.gemspec",
+    "lib/engine.rb",
     "lib/jwysiwyg_rails.rb",
     "test/helper.rb",
     "test/test_jwysiwyg_rails.rb"
@@ -31,7 +100,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.5.2}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{Rails 3.1 engine for jwysiwyg}
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
