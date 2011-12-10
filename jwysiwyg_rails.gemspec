@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{jwysiwyg_rails}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jeff Wigal"]
@@ -80,6 +80,7 @@ Gem::Specification.new do |s|
     "app/assets/javascripts/i18n/lang.se.js",
     "app/assets/javascripts/i18n/lang.sl.js",
     "app/assets/javascripts/i18n/lang.zh-cn.js",
+    "app/assets/javascripts/jquery.wysiwyg.js",
     "app/assets/javascripts/plugins/wysiwyg.autoload.js",
     "app/assets/javascripts/plugins/wysiwyg.fileManager.js",
     "app/assets/javascripts/plugins/wysiwyg.fullscreen.js",
